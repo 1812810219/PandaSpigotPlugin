@@ -1,0 +1,2 @@
+defaultkick: '你已被踢出了服务器！'
+defaultjoin: '&b%player_name%加入了服务器&c(IP: %player_ip%)'

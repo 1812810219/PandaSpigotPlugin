@@ -1,0 +1,27 @@
+name: PandaPlugin
+main: com.panda.pandaplugin.PandaPlugin
+version: 0.0.1
+
+commands:
+  Panda:
+    description: 介绍
+  PandaPlay:
+    description: message
+  PandaKick:
+    description: 踢出玩家 可自定义踢出内容
+  PandaHeal:
+    description: 治疗自己
+  PandaPing:
+    description: 检查玩家ping值
+permissions:
+  pandaplugin.*:
+    description: 权限
+    children:
+      pandaplugin.commands.pandaheal: true
+      pandaplugin.commands.pandakick: true
+  pandaplugin.commands.pandaheal:
+    description: /PandaHeal 权限
+    default: op
+  pandaplugin.commands.pandakick:
+    description: /PandaKick 权限
+    default: op
