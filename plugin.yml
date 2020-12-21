@@ -13,6 +13,8 @@ commands:
     description: 治疗自己
   PandaPing:
     description: 检查玩家ping值
+  Gui:
+    description: Gui
 permissions:
   pandaplugin.*:
     description: 权限
